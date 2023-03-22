@@ -1,0 +1,4 @@
+---
+- name: Export sapmnt
+  include_tasks: "sapmnt.yml"
+...

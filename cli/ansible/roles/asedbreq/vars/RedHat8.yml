@@ -1,0 +1,7 @@
+---
+ase_required_packages:
+
+ase_required_configurations:
+  - "hosts"  
+  - "tune_RHEL"
+... 

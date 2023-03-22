@@ -1,0 +1,7 @@
+---
+- name: Enable hostname resolve for the db server
+  lineinfile:
+    path: /etc/hosts
+    line: "{{ db_host }} {{ db_hostname }}"
+  when: (db_host is defined) and (db_hostname is defined)
+...
