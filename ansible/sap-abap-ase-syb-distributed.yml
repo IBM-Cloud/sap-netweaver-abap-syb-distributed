@@ -1,0 +1,8 @@
+---
+- name: sapnwascs.yml
+  ansible.builtin.import_playbook: sapnwascs.yml
+- name: sapnwdb.yml
+  ansible.builtin.import_playbook: sapnwdb.yml
+- name: sapnwapp.yml
+  ansible.builtin.import_playbook: sapnwapp.yml
+...
